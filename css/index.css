@@ -187,14 +187,13 @@ header nav a {
   margin-bottom: 20px;
 }
 .about-content {
-  border: 1px solid green;
   display: flex;
+  flex-wrap: wrap;
 }
 .about-content .card {
   padding: 20px;
-  border: 1px dashed black;
-  width: 390px;
-  margin: 20px 10px 0 0;
+  border-bottom: 1px dashed black;
+  width: 350px;
 }
 .about-content .card button {
   padding: 10px 40px;
