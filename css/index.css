@@ -189,11 +189,16 @@ header nav a {
 .about-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card img {
+  width: 100%;
 }
 .about-content .card {
   padding: 20px;
   border-bottom: 1px dashed black;
-  width: 350px;
+  width: 40%;
 }
 .about-content .card button {
   padding: 10px 40px;
@@ -202,6 +207,9 @@ header nav a {
   background: white;
   border-radius: 5px;
   border: 1px solid black;
+}
+.card button:hover {
+  background-color: lightgray;
 }
 
 .top-content .text-container {
